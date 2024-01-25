@@ -5,14 +5,6 @@ const PORT = 3333;
 
 const app = express();
 
-// const db = require('./db/connections');
-
-// db.query('SELECT * FROM users', (err, result) => {
-//   if(err) return console.log(err);
-
-//   console.log(result);
-// })
-
 const api_routes = require('./routes/api_routes');
 
 // Opening up the middleware channel to allow json to be sent through from the client
